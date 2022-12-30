@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- ======= header/nav Section ======= -->
     <header>
         <nav>
-            <img src="" alt="logo">
-            <h4>Portfolio</h4>
-            <ul>
+            <img src="" alt="logo" class="logo">
+            <h4 class="logo-name">Portfolio</h4>
+            <ul class="nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a> </li>
                 <li><a href="#work">Work</a></li>
@@ -20,25 +22,34 @@
 
             </ul>
         </nav>
+
+        <!-- <img src="lion.jpg" alt="header background" style="width: 1200px;"> -->
     </header>
+
+    <!-- ======= About Section ======== -->
     <div id="about">
-        <h4>About</h4>
-        <h3>My Services</h3>
-        <div>
-            <div>
-                <h4>Web Development</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, impedit?</p>
+        <h4 class=" head ">About</h4>
+        <h3 class=" sub-head ">My Services</h3>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-header">icon</h5>
+                <h4 class="card-subheader">Web Development</h4>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, impedit?</p>
             </div>
-            <div>
-                <h4>Web Design</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="card-body">
+                <h5 class="card-header">icon</h5>
+                <h4 class="card-subheader">Web Design</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div>
-                <h4>Mobile Development</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati!</p>
+            <div class="card-body">
+                <h5 class="card-header">icon</h5>
+                <h4 class="card-subheader">Mobile Development</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati!</p>
             </div>
-            <div>
-                <h4>Mobile Design</h4>
+            <div class="card-body">
+                <h5 class="card-header">icon</h5>
+                <h4 class="card-subheader">Mobile Design</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati!</p>
             </div>
         </div>
         <div>
@@ -48,61 +59,75 @@
             </video>
         </div>
     </div>
+    
+    
+    <!-- ====== portfolio/projects/works Section ====== -->
     <section id="work">
-        <h4>Work</h4>
-        <h3>Projects</h3>
-        <div>
-            <div>
-                <h4>Project 1</h4>
+        <h4 class="head">Work</h4>
+        <h3 class="sub-head">Projects</h3>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-header">Project 1</h4>
                 <a href="#git"><img src="#project 1" alt="Project 1"></a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit ipsa sunt?</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit ipsa sunt?</p>
             </div>
-            <div>
-                <h4>Project 2</h4>
+            <div class="card-body">
+                <h4 class="card-header">Project 2</h4>
                 <a href="#git"><img src="#project 2" alt="Project 2"></a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit ipsa sunt?</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit ipsa sunt?</p>
             </div>
-            <div>
-                <h4>Project 3</h4>
+            <div class="card-body">
+                <h4 class="card-header">Project 3</h4>
                 <a href="#git"><img src="#project 3" alt="Project 3"></a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit ipsa sunt?</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit ipsa sunt?</p>
             </div>
-            <div>
-                <h4>Project 4</h4>
+            <div class="card-body">
+                <h4 class="card-header">Project 4</h4>
                 <a href="#git"><img src="#project 4" alt="Project 4"></a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit ipsa sunt?</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit ipsa sunt?</p>
             </div>
-            <div>
-                <h4>Project 5</h4>
+            <div class="card-body">
+                <h4 class="card-header">Project 5</h4>
                 <a href="#git"><img src="#project 5" alt="Project 5"></a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit ipsa sunt?</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit ipsa sunt?</p>
             </div>
-            <div>
-                <h4>Project 6</h4>
+            <div class="card-body">
+                <h4 class="card-header">Project 6</h4>
                 <a href="#git"><img src="#project 6" alt="Project 6"></a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit ipsa sunt?</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit ipsa sunt?</p>
             </div>
+        </div>
+    </section>
+    
+    
+    <!-- ======= Resume Section ====== -->
+    <section id="resume">
+        <h4 class="head">Resume</h4>
+        <h3 class="sub-head">My Resume</h3>
+        <div class="container">
+        <div>
+            <img src="#myPic" alt="Moore Jesuloba">
+        </div>
+        <div class="container">
+            <h3 class="resume-head">Name:</h3>
+            <p class="resume-name">Moore Jesuloba</p>
+            <hr>
+            <h3 class="resume-head">Occupation:</h3>
+            <p class="resume-name">Full-stack Developer</p>
+            <hr>
+            <h3 class="resume-head">Age:</h3>
+            <p class="resume-name">Won't you like to know?</p>
+            <hr>
+            <h3 class="resume-head">School:</h3>
+            <p class="resume-name">GoMyCode</p>
+            <hr>
         </div>
     </section>
 
-    <section id="resume">
-        <h4>Resume</h4>
-        <h3>My Resume</h3>
-        <div>
-            <img src="#myPic" alt="Moore Jesuloba">
-            <h3>Name</h3>
-            <p>Moore Jesuloba</p>
-            <h3>Occupation</h3>
-            <p>Full-stack Developer</p>
-            <h3>Age</h3>
-            <p>Won't you like to know?</p>
-            <h3>School</h3>
-            <p>GoMyCode</p>
-        </div>
-    </section>
+    <!-- ====== Contact Form Section ====== -->
     <div id="contact">
-        <h3>Contact</h3>
-        <h4>Contact Me @</h4>
+        <h3 class="head">Contact</h3>
+        <h4 class="sub-head">Contact Me @</h4>
 
         <form action="">
             <label for="">Name:</label><br>
